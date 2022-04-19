@@ -1,0 +1,179 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.sim/sim_1/impl/func/xsim/top_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD9226
+INFO: [VRFC 10-311] analyzing module AD9767
+INFO: [VRFC 10-311] analyzing module AD9767_1
+INFO: [VRFC 10-311] analyzing module Extraction_location
+INFO: [VRFC 10-311] analyzing module Extraction_location_HD2
+INFO: [VRFC 10-311] analyzing module algorithm_top
+INFO: [VRFC 10-311] analyzing module clk_64KHz
+INFO: [VRFC 10-311] analyzing module clk_64KHz_2
+INFO: [VRFC 10-311] analyzing module clk_64KHz_to_8KHz
+INFO: [VRFC 10-311] analyzing module clk_64KHz_to_8KHz_3
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz_0
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz_to_11_025KHz
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz_to_11_025KHz_1
+INFO: [VRFC 10-311] analyzing module clk_96KHz
+INFO: [VRFC 10-311] analyzing module clk_96KHz_4
+INFO: [VRFC 10-311] analyzing module clk_96KHz_to_12KHz
+INFO: [VRFC 10-311] analyzing module clk_96KHz_to_12KHz_5
+INFO: [VRFC 10-311] analyzing module clk_div_6_4MHz_to_8KHz
+INFO: [VRFC 10-311] analyzing module clk_div_6_4MHz_to_8KHz__xdcDup__1
+INFO: [VRFC 10-311] analyzing module clk_div_8_82MHz_to_11_025KHz
+INFO: [VRFC 10-311] analyzing module clk_div_8_82MHz_to_11_025KHz__xdcDup__1
+INFO: [VRFC 10-311] analyzing module clk_div_9_6MHz_to_12KHz
+INFO: [VRFC 10-311] analyzing module clk_div_9_6MHz_to_12KHz__xdcDup__1
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_HD10
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz_1_clk_wiz_HD11
+INFO: [VRFC 10-311] analyzing module clk_wiz_2
+INFO: [VRFC 10-311] analyzing module clk_wiz_2_HD13
+INFO: [VRFC 10-311] analyzing module clk_wiz_2_clk_wiz_2_clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_2_clk_wiz_2_clk_wiz_HD14
+INFO: [VRFC 10-311] analyzing module clk_wiz_3
+INFO: [VRFC 10-311] analyzing module clk_wiz_3_HD16
+INFO: [VRFC 10-311] analyzing module clk_wiz_3_clk_wiz_3_clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_3_clk_wiz_3_clk_wiz_HD17
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k
+INFO: [VRFC 10-311] analyzing module conversion_mode_sel
+INFO: [VRFC 10-311] analyzing module data_waiting_area
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1
+INFO: [VRFC 10-311] analyzing module data_waiting_area_ctrl
+INFO: [VRFC 10-311] analyzing module data_waiting_area_ctrl_1
+INFO: [VRFC 10-311] analyzing module div_gen_0
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-311] analyzing module fir_coefdata_ctrl
+INFO: [VRFC 10-311] analyzing module signal_extraction
+INFO: [VRFC 10-311] analyzing module signal_extraction_1
+INFO: [VRFC 10-311] analyzing module system_top
+INFO: [VRFC 10-311] analyzing module uart_data_decode
+INFO: [VRFC 10-311] analyzing module uart_recv
+INFO: [VRFC 10-311] analyzing module uart_send
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_generic_cstr_HD6
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_prim_width_HD7
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_prim_wrapper_init_HD8
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_top_HD5
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_v8_4_2
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_v8_4_2_HD3
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_v8_4_2_synth
+INFO: [VRFC 10-311] analyzing module Extraction_location__blk_mem_gen_v8_4_2_synth_HD4
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_v8_4_2
+INFO: [VRFC 10-311] analyzing module coefdata_12k_96k_blk_mem_gen_v8_4_2_synth
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_v8_4_2
+INFO: [VRFC 10-311] analyzing module data_waiting_area_1__blk_mem_gen_v8_4_2_synth
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_v8_4_2
+INFO: [VRFC 10-311] analyzing module data_waiting_area__blk_mem_gen_v8_4_2_synth
+INFO: [VRFC 10-311] analyzing module div_gen_0__div_gen_v5_1_14
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_10
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_12
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_14
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_2
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_4
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_6
+INFO: [VRFC 10-311] analyzing module div_gen_0__addsubreg_v_8
+INFO: [VRFC 10-311] analyzing module div_gen_0__bip_sdivider_synth
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_24
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_29
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_34
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_39
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_44
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_49
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_lut6_54
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_23
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_28
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_33
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_38
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_43
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_48
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_addsub_viv_53
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_twos_comp_viv
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_twos_comp_viv__parameterized0
+INFO: [VRFC 10-311] analyzing module div_gen_0__c_twos_comp_viv__parameterized1_1
+INFO: [VRFC 10-311] analyzing module div_gen_0__cmp2s_v
+INFO: [VRFC 10-311] analyzing module div_gen_0__cmp2s_v__parameterized0
+INFO: [VRFC 10-311] analyzing module div_gen_0__cmp2s_v__parameterized1
+INFO: [VRFC 10-311] analyzing module div_gen_0__div_gen_synth
+INFO: [VRFC 10-311] analyzing module div_gen_0__div_gen_v5_1_14_viv
+INFO: [VRFC 10-311] analyzing module div_gen_0__dividervdc_v
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized1
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized11
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized15
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized19
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized23
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized27
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized29
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized3
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized31
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized33
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized36
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized3_18
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_11
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_13
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_15
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_3
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_5
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_7
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized5_9
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized7_16
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_26
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_31
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_36
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_41
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_46
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_51
+INFO: [VRFC 10-311] analyzing module div_gen_0__xbip_pipe_v3_0_5_viv__parameterized9_56
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module algorithm_top
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'rom_en_2clk' is not allowed [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:40]
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'algorithm_top' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/conversion_mode_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conversion_mode_sel
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'conversion_mode_sel' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/conversion_mode_sel.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_waiting_area_ctrl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'data_waiting_area_ctrl' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_waiting_area_ctrl_1
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'data_waiting_area_ctrl_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'filter' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir_coefdata_ctrl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'fir_coefdata_ctrl' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_extraction
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'signal_extraction' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_extraction_1
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'signal_extraction_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

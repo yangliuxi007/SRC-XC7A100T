@@ -1,0 +1,1250 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 17:50:18 2022
+# Process ID: 16752
+# Current directory: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1
+# Command line: vivado.exe -log system_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_top.tcl
+# Log file: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/system_top.vds
+# Journal file: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/scripts/Vivado_init.tcl'
+source system_top.tcl -notrace
+Command: synth_design -top system_top -part xc7a100tfgg676-2 -flatten_hierarchy none -keep_equivalent_registers
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19468 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 404.473 ; gain = 106.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_top' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/system_top.v:3]
+	Parameter ADDR_WIDTH bound to: 28 - type: integer 
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter PAYLOAD_WIDTH bound to: 16 - type: integer 
+	Parameter BURST_LENGTH bound to: 8 - type: integer 
+	Parameter APP_DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_div_9_6MHz_to_12KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v:3]
+	Parameter fre_div_100 bound to: 6'b110010 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (1#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_96KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_96KHz' (2#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_96KHz_to_12KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_96KHz_to_12KHz' (3#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_9_6MHz_to_12KHz' (4#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_6_4MHz_to_8KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_6_4MHz_to_8KHz.v:3]
+	Parameter fre_div_100 bound to: 6'b110010 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_2' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_2_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_2' (5#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_2_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_64KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_64KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_64KHz' (6#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_64KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_64KHz_to_8KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_64KHz_to_8KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_64KHz_to_8KHz' (7#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_64KHz_to_8KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_6_4MHz_to_8KHz' (8#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_6_4MHz_to_8KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_8_82MHz_to_11_025KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v:3]
+	Parameter fre_div_100 bound to: 6'b110010 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_3' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_3_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_3' (9#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_3_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_88_2KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_88_2KHz' (10#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_88_2KHz_to_11_025KHz' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_88_2KHz_to_11_025KHz' (11#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_8_82MHz_to_11_025KHz' (12#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AD9226' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9226.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'AD9226' (13#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9226.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AD9767' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9767.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'AD9767' (14#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9767.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AD9767_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9767_1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'AD9767_1' (15#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/AD9767_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'algorithm_top' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:3]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:43]
+INFO: [Synth 8-6157] synthesizing module 'data_waiting_area_ctrl' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'data_waiting_area' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/data_waiting_area_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_waiting_area' (16#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/data_waiting_area_stub.v:6]
+WARNING: [Synth 8-689] width (11) of port connection 'addra' does not match port width (10) of module 'data_waiting_area' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:120]
+INFO: [Synth 8-6155] done synthesizing module 'data_waiting_area_ctrl' (17#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'data_waiting_area_ctrl_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'data_waiting_area_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/data_waiting_area_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_waiting_area_1' (18#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/data_waiting_area_1_stub.v:6]
+WARNING: [Synth 8-689] width (11) of port connection 'addra' does not match port width (10) of module 'data_waiting_area_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'data_waiting_area_ctrl_1' (19#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'signal_extraction' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Extraction_location' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/Extraction_location_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Extraction_location' (20#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/Extraction_location_stub.v:6]
+WARNING: [Synth 8-689] width (11) of port connection 'addra' does not match port width (10) of module 'Extraction_location' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:84]
+WARNING: [Synth 8-5788] Register addr_reg_reg in module signal_extraction is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:34]
+WARNING: [Synth 8-5788] Register cnt_reg in module signal_extraction is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'signal_extraction' (21#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction.v:3]
+INFO: [Synth 8-6157] synthesizing module 'signal_extraction_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'addra' does not match port width (10) of module 'Extraction_location' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:84]
+WARNING: [Synth 8-5788] Register addr_reg_reg in module signal_extraction_1 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:34]
+WARNING: [Synth 8-5788] Register cnt_reg in module signal_extraction_1 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'signal_extraction_1' (22#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_extraction_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'signal_interpolation' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'signal_interpolation' (23#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation.v:3]
+INFO: [Synth 8-6157] synthesizing module 'conversion_mode_sel' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/conversion_mode_sel.v:4]
+INFO: [Synth 8-6157] synthesizing module 'div_gen_0' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/div_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'div_gen_0' (24#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/div_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conversion_mode_sel' (25#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/conversion_mode_sel.v:4]
+INFO: [Synth 8-6157] synthesizing module 'fir_coefdata_ctrl' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v:3]
+	Parameter coef_num bound to: 6'b111101 
+INFO: [Synth 8-6155] done synthesizing module 'fir_coefdata_ctrl' (26#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'filter' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:5]
+WARNING: [Synth 8-6014] Unused sequential element coefdata_reg_reg[0] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:28]
+WARNING: [Synth 8-6014] Unused sequential element coefdata_reg_reg[1] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:28]
+WARNING: [Synth 8-6014] Unused sequential element delay_pipeline_reg[60] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-6155] done synthesizing module 'filter' (27#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:5]
+INFO: [Synth 8-6157] synthesizing module 'signal_interpolation_farrow' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:3]
+	Parameter v3_0 bound to: 16'sb1110101010101010 
+	Parameter v3_1 bound to: 16'sb0100000000000000 
+	Parameter v3_2 bound to: 16'sb1100000000000000 
+	Parameter v3_3 bound to: 16'sb0001010101010110 
+	Parameter v2_0 bound to: 16'sb0100000000000000 
+	Parameter v2_1 bound to: 16'sb1111111111111111 
+	Parameter v2_2 bound to: 16'sb0100000000000000 
+	Parameter v2_3 bound to: 16'sb0000000000000000 
+	Parameter v1_0 bound to: 16'sb1101010101010110 
+	Parameter v1_1 bound to: 16'sb1100000000000000 
+	Parameter v1_2 bound to: 16'sb0000000000000001 
+	Parameter v1_3 bound to: 16'sb1110101010101010 
+	Parameter v0_0 bound to: 16'sb0000000000000000 
+	Parameter v0_1 bound to: 16'sb0000000000000001 
+	Parameter v0_2 bound to: 16'sb0000000000000000 
+	Parameter v0_3 bound to: 16'sb0000000000000000 
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:14]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:15]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:41]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:43]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:45]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:46]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:47]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:49]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:50]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:51]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:53]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:55]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:56]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:57]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:60]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:61]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:62]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:75]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:76]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:77]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:81]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:82]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:83]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:89]
+INFO: [Synth 8-6157] synthesizing module 'fifo_farrow_0' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_farrow_0' (28#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_farrow_1' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_farrow_1' (29#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_farrow_out' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_out_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_farrow_out' (30#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/fifo_farrow_out_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_farrow_0_inst'. This will prevent further optimization [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:362]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_farrow_1_inst'. This will prevent further optimization [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:378]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_farrow_out1'. This will prevent further optimization [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:410]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_farrow_out0'. This will prevent further optimization [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:394]
+INFO: [Synth 8-6155] done synthesizing module 'signal_interpolation_farrow' (31#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:3]
+WARNING: [Synth 8-350] instance 'signal_interpolation_farrow_inst' of module 'signal_interpolation_farrow' requires 10 connections, but only 9 given [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:167]
+INFO: [Synth 8-6157] synthesizing module 'coefdata_rom' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/coefdata_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'coefdata_rom' (32#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/coefdata_rom_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'filter_inst'. This will prevent further optimization [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:155]
+INFO: [Synth 8-6155] done synthesizing module 'algorithm_top' (33#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/algorithm_top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_recv' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_recv.v:3]
+	Parameter CLK_FREQ bound to: 50000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 5208 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_recv' (34#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_recv.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_send' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_send.v:3]
+	Parameter CLK_FREQ bound to: 50000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 5208 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_send' (35#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_send.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_data_decode' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_data_decode.v:3]
+WARNING: [Synth 8-6014] Unused sequential element decode_infor_reg_reg[2] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_data_decode.v:25]
+WARNING: [Synth 8-6014] Unused sequential element decode_infor_reg_reg[3] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_data_decode.v:25]
+WARNING: [Synth 8-6014] Unused sequential element decode_infor_reg_reg[6] was removed.  [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_data_decode.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'uart_data_decode' (36#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/uart_data_decode.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (37#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/.Xil/Vivado-16752-DESKTOP-E68HFE0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'system_top' (38#1) [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/system_top.v:3]
+WARNING: [Synth 8-3331] design signal_interpolation_farrow has unconnected port module_en
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 474.422 ; gain = 176.734
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 474.422 ; gain = 176.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 474.422 ; gain = 176.734
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_out/fifo_farrow_out/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out0'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_out/fifo_farrow_out/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out0'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_out/fifo_farrow_out/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out1'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_out/fifo_farrow_out/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out1'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_1/fifo_farrow_1/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_1_inst'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_1/fifo_farrow_1/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_1_inst'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_0/fifo_farrow_0/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_0_inst'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_farrow_0/fifo_farrow_0/cross_clk_domain_dido_in_context.xdc] for cell 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_0_inst'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/data_waiting_area_1/data_waiting_area_1/data_temporary_storage_in_context.xdc] for cell 'algorithm_top_inst/data_waiting_area_ctrl_1_inst/data_waiting_area_ram'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/data_waiting_area_1/data_waiting_area_1/data_temporary_storage_in_context.xdc] for cell 'algorithm_top_inst/data_waiting_area_ctrl_1_inst/data_waiting_area_ram'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/data_waiting_area/data_waiting_area/data_temporary_storage_in_context.xdc] for cell 'algorithm_top_inst/data_waiting_area_ctrl_inst/data_waiting_area_ram'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/data_waiting_area/data_waiting_area/data_temporary_storage_in_context.xdc] for cell 'algorithm_top_inst/data_waiting_area_ctrl_inst/data_waiting_area_ram'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_ip_50MHz_to_200MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_ip_50MHz_to_200MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_div_0_inst/clk_ip_200MHz_to_9_6MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_div_0_inst/clk_ip_200MHz_to_9_6MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'clk_div_1_inst/clk_ip_200MHz_to_6_4MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'clk_div_1_inst/clk_ip_200MHz_to_6_4MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3/clk_wiz_3_in_context.xdc] for cell 'clk_div_2_inst/clk_ip_200MHz_to_8_82MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3/clk_wiz_3_in_context.xdc] for cell 'clk_div_2_inst/clk_ip_200MHz_to_8_82MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3/clk_wiz_3_in_context.xdc] for cell 'clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3/clk_wiz_3_in_context.xdc] for cell 'clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/Extraction_location/Extraction_location/Extraction_location_in_context.xdc] for cell 'algorithm_top_inst/signal_extraction_inst/Extraction_location_rom'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/Extraction_location/Extraction_location/Extraction_location_in_context.xdc] for cell 'algorithm_top_inst/signal_extraction_inst/Extraction_location_rom'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/Extraction_location/Extraction_location/Extraction_location_in_context.xdc] for cell 'algorithm_top_inst/signal_extraction_1_inst/Extraction_location_rom'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/Extraction_location/Extraction_location/Extraction_location_in_context.xdc] for cell 'algorithm_top_inst/signal_extraction_1_inst/Extraction_location_rom'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/coefdata_rom/coefdata_rom/coefdata_rom_in_context.xdc] for cell 'algorithm_top_inst/coefdata_rom_ip'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/coefdata_rom/coefdata_rom/coefdata_rom_in_context.xdc] for cell 'algorithm_top_inst/coefdata_rom_ip'
+Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'algorithm_top_inst/conversion_mode_sel_inst/div_ip'
+Finished Parsing XDC File [d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'algorithm_top_inst/conversion_mode_sel_inst/div_ip'
+Parsing XDC File [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/constrs_1/new/XDC.xdc]
+Finished Parsing XDC File [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/constrs_1/new/XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 848.516 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 848.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 848.516 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 848.516 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/conversion_mode_sel_inst/div_ip' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/data_waiting_area_ctrl_1_inst/data_waiting_area_ram' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/data_waiting_area_ctrl_inst/data_waiting_area_ram' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_extraction_1_inst/Extraction_location_rom' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_extraction_inst/Extraction_location_rom' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_0_inst' at clock pin 'wr_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_1_inst' at clock pin 'wr_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out0' at clock pin 'rd_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out1' at clock pin 'rd_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 848.516 ; gain = 550.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 848.516 ; gain = 550.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_out1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_1_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_interpolation_farrow_inst/fifo_farrow_0_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/data_waiting_area_ctrl_1_inst/data_waiting_area_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/data_waiting_area_ctrl_inst/data_waiting_area_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_ip_50MHz_to_200MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_0_inst/clk_ip_200MHz_to_9_6MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_1_inst/clk_ip_200MHz_to_6_4MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_2_inst/clk_ip_200MHz_to_8_82MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_extraction_inst/Extraction_location_rom. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/signal_extraction_1_inst/Extraction_location_rom. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/coefdata_rom_ip. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for algorithm_top_inst/conversion_mode_sel_inst/div_ip. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 848.516 ; gain = 550.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "addra" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wea" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p_0_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_1_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "wea" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p_0_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_1_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "multiple16" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "flag_1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_0_0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_1_0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rd_en_out_0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rd_en_out_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:125]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:124]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:124]
+INFO: [Synth 8-5544] ROM "flag_1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_0_0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_1_0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rd_en_out_0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rd_en_out_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "lock_2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rx_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "uart_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tx_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_en_choose" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_en_choose_1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'wr_en_0_reg' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:180]
+WARNING: [Synth 8-327] inferring latch for variable 'wr_en_1_reg' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:255]
+WARNING: [Synth 8-327] inferring latch for variable 'lock_0_reg' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v:181]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 848.516 ; gain = 550.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  59 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   3 Input     12 Bit       Adders := 5     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 6     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 13    
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 61    
+	               12 Bit    Registers := 80    
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 7     
+	                4 Bit    Registers := 8     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 54    
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 3     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 60    
+	   2 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 11    
+	  13 Input     12 Bit        Muxes := 2     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 18    
+	   4 Input     10 Bit        Muxes := 8     
+	   2 Input     10 Bit        Muxes := 5     
+	   5 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 8     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 8     
+	  13 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   3 Input      2 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 14    
+	   2 Input      1 Bit        Muxes := 36    
+	  12 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module system_top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module clk_96KHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module clk_96KHz_to_12KHz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module clk_64KHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module clk_64KHz_to_8KHz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module clk_88_2KHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module clk_88_2KHz_to_11_025KHz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module AD9226 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module AD9767 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module AD9767_1 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module data_waiting_area_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module data_waiting_area_ctrl_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   4 Input     10 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module signal_extraction 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 6     
+	   4 Input     10 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module signal_extraction_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 6     
+	   4 Input     10 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module signal_interpolation 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 9     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 8     
+Module conversion_mode_sel 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+Module fir_coefdata_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+Module filter 
+Detailed RTL Component Info : 
++---Adders : 
+	  59 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 59    
+	               12 Bit    Registers := 61    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 59    
+Module signal_interpolation_farrow 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     27 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 5     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 3     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 6     
+	   5 Input      9 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 13    
+	   3 Input      2 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+Module algorithm_top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_recv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module uart_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 1     
+Module uart_data_decode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  13 Input     12 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "p_1_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "data_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p_1_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "data_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+DSP Report: Generating DSP mul_temp_57, operation Mode is: A*B.
+DSP Report: operator mul_temp_57 is absorbed into DSP mul_temp_57.
+DSP Report: Generating DSP mul_temp_56, operation Mode is: A*B.
+DSP Report: operator mul_temp_56 is absorbed into DSP mul_temp_56.
+DSP Report: Generating DSP mul_temp_55, operation Mode is: A*B.
+DSP Report: operator mul_temp_55 is absorbed into DSP mul_temp_55.
+DSP Report: Generating DSP mul_temp_54, operation Mode is: A*B.
+DSP Report: operator mul_temp_54 is absorbed into DSP mul_temp_54.
+DSP Report: Generating DSP mul_temp_53, operation Mode is: A*B.
+DSP Report: operator mul_temp_53 is absorbed into DSP mul_temp_53.
+DSP Report: Generating DSP mul_temp_52, operation Mode is: A*B.
+DSP Report: operator mul_temp_52 is absorbed into DSP mul_temp_52.
+DSP Report: Generating DSP mul_temp_51, operation Mode is: A*B.
+DSP Report: operator mul_temp_51 is absorbed into DSP mul_temp_51.
+DSP Report: Generating DSP mul_temp_50, operation Mode is: A*B.
+DSP Report: operator mul_temp_50 is absorbed into DSP mul_temp_50.
+DSP Report: Generating DSP mul_temp_49, operation Mode is: A*B.
+DSP Report: operator mul_temp_49 is absorbed into DSP mul_temp_49.
+DSP Report: Generating DSP mul_temp_48, operation Mode is: A*B.
+DSP Report: operator mul_temp_48 is absorbed into DSP mul_temp_48.
+DSP Report: Generating DSP mul_temp_47, operation Mode is: A*B.
+DSP Report: operator mul_temp_47 is absorbed into DSP mul_temp_47.
+DSP Report: Generating DSP mul_temp_46, operation Mode is: A*B.
+DSP Report: operator mul_temp_46 is absorbed into DSP mul_temp_46.
+DSP Report: Generating DSP mul_temp_45, operation Mode is: A*B.
+DSP Report: operator mul_temp_45 is absorbed into DSP mul_temp_45.
+DSP Report: Generating DSP mul_temp_44, operation Mode is: A*B.
+DSP Report: operator mul_temp_44 is absorbed into DSP mul_temp_44.
+DSP Report: Generating DSP mul_temp_43, operation Mode is: A*B.
+DSP Report: operator mul_temp_43 is absorbed into DSP mul_temp_43.
+DSP Report: Generating DSP mul_temp_42, operation Mode is: A*B.
+DSP Report: operator mul_temp_42 is absorbed into DSP mul_temp_42.
+DSP Report: Generating DSP mul_temp_41, operation Mode is: A*B.
+DSP Report: operator mul_temp_41 is absorbed into DSP mul_temp_41.
+DSP Report: Generating DSP mul_temp_40, operation Mode is: A*B.
+DSP Report: operator mul_temp_40 is absorbed into DSP mul_temp_40.
+DSP Report: Generating DSP mul_temp_39, operation Mode is: A*B.
+DSP Report: operator mul_temp_39 is absorbed into DSP mul_temp_39.
+DSP Report: Generating DSP mul_temp_38, operation Mode is: A*B.
+DSP Report: operator mul_temp_38 is absorbed into DSP mul_temp_38.
+DSP Report: Generating DSP mul_temp_37, operation Mode is: A*B.
+DSP Report: operator mul_temp_37 is absorbed into DSP mul_temp_37.
+DSP Report: Generating DSP mul_temp_36, operation Mode is: A*B.
+DSP Report: operator mul_temp_36 is absorbed into DSP mul_temp_36.
+DSP Report: Generating DSP mul_temp_35, operation Mode is: A*B.
+DSP Report: operator mul_temp_35 is absorbed into DSP mul_temp_35.
+DSP Report: Generating DSP mul_temp_34, operation Mode is: A*B.
+DSP Report: operator mul_temp_34 is absorbed into DSP mul_temp_34.
+DSP Report: Generating DSP mul_temp_33, operation Mode is: A*B.
+DSP Report: operator mul_temp_33 is absorbed into DSP mul_temp_33.
+DSP Report: Generating DSP mul_temp_32, operation Mode is: A*B.
+DSP Report: operator mul_temp_32 is absorbed into DSP mul_temp_32.
+DSP Report: Generating DSP mul_temp_31, operation Mode is: A*B.
+DSP Report: operator mul_temp_31 is absorbed into DSP mul_temp_31.
+DSP Report: Generating DSP mul_temp_30, operation Mode is: A*B.
+DSP Report: operator mul_temp_30 is absorbed into DSP mul_temp_30.
+DSP Report: Generating DSP mul_temp_29, operation Mode is: A*B.
+DSP Report: operator mul_temp_29 is absorbed into DSP mul_temp_29.
+DSP Report: Generating DSP mul_temp_28, operation Mode is: A*B.
+DSP Report: operator mul_temp_28 is absorbed into DSP mul_temp_28.
+DSP Report: Generating DSP mul_temp_27, operation Mode is: A*B.
+DSP Report: operator mul_temp_27 is absorbed into DSP mul_temp_27.
+DSP Report: Generating DSP mul_temp_26, operation Mode is: A*B.
+DSP Report: operator mul_temp_26 is absorbed into DSP mul_temp_26.
+DSP Report: Generating DSP mul_temp_25, operation Mode is: A*B.
+DSP Report: operator mul_temp_25 is absorbed into DSP mul_temp_25.
+DSP Report: Generating DSP mul_temp_24, operation Mode is: A*B.
+DSP Report: operator mul_temp_24 is absorbed into DSP mul_temp_24.
+DSP Report: Generating DSP mul_temp_23, operation Mode is: A*B.
+DSP Report: operator mul_temp_23 is absorbed into DSP mul_temp_23.
+DSP Report: Generating DSP mul_temp_22, operation Mode is: A*B.
+DSP Report: operator mul_temp_22 is absorbed into DSP mul_temp_22.
+DSP Report: Generating DSP mul_temp_21, operation Mode is: A*B.
+DSP Report: operator mul_temp_21 is absorbed into DSP mul_temp_21.
+DSP Report: Generating DSP mul_temp_20, operation Mode is: A*B.
+DSP Report: operator mul_temp_20 is absorbed into DSP mul_temp_20.
+DSP Report: Generating DSP mul_temp_19, operation Mode is: A*B.
+DSP Report: operator mul_temp_19 is absorbed into DSP mul_temp_19.
+DSP Report: Generating DSP mul_temp_18, operation Mode is: A*B.
+DSP Report: operator mul_temp_18 is absorbed into DSP mul_temp_18.
+DSP Report: Generating DSP mul_temp_17, operation Mode is: A*B.
+DSP Report: operator mul_temp_17 is absorbed into DSP mul_temp_17.
+DSP Report: Generating DSP mul_temp_16, operation Mode is: A*B.
+DSP Report: operator mul_temp_16 is absorbed into DSP mul_temp_16.
+DSP Report: Generating DSP mul_temp_15, operation Mode is: A*B.
+DSP Report: operator mul_temp_15 is absorbed into DSP mul_temp_15.
+DSP Report: Generating DSP mul_temp_14, operation Mode is: A*B.
+DSP Report: operator mul_temp_14 is absorbed into DSP mul_temp_14.
+DSP Report: Generating DSP mul_temp_13, operation Mode is: A*B.
+DSP Report: operator mul_temp_13 is absorbed into DSP mul_temp_13.
+DSP Report: Generating DSP mul_temp_12, operation Mode is: A*B.
+DSP Report: operator mul_temp_12 is absorbed into DSP mul_temp_12.
+DSP Report: Generating DSP mul_temp_11, operation Mode is: A*B.
+DSP Report: operator mul_temp_11 is absorbed into DSP mul_temp_11.
+DSP Report: Generating DSP mul_temp_10, operation Mode is: A*B.
+DSP Report: operator mul_temp_10 is absorbed into DSP mul_temp_10.
+DSP Report: Generating DSP mul_temp_9, operation Mode is: A*B.
+DSP Report: operator mul_temp_9 is absorbed into DSP mul_temp_9.
+DSP Report: Generating DSP mul_temp_8, operation Mode is: A*B.
+DSP Report: operator mul_temp_8 is absorbed into DSP mul_temp_8.
+DSP Report: Generating DSP mul_temp_7, operation Mode is: A*B.
+DSP Report: operator mul_temp_7 is absorbed into DSP mul_temp_7.
+DSP Report: Generating DSP mul_temp_6, operation Mode is: A*B.
+DSP Report: operator mul_temp_6 is absorbed into DSP mul_temp_6.
+DSP Report: Generating DSP mul_temp_5, operation Mode is: A*B.
+DSP Report: operator mul_temp_5 is absorbed into DSP mul_temp_5.
+DSP Report: Generating DSP mul_temp_4, operation Mode is: A*B.
+DSP Report: operator mul_temp_4 is absorbed into DSP mul_temp_4.
+DSP Report: Generating DSP mul_temp_3, operation Mode is: A*B.
+DSP Report: operator mul_temp_3 is absorbed into DSP mul_temp_3.
+DSP Report: Generating DSP mul_temp_2, operation Mode is: A*B.
+DSP Report: operator mul_temp_2 is absorbed into DSP mul_temp_2.
+DSP Report: Generating DSP mul_temp_1, operation Mode is: A*B.
+DSP Report: operator mul_temp_1 is absorbed into DSP mul_temp_1.
+DSP Report: Generating DSP mul_temp, operation Mode is: A*B.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: Generating DSP mul_temp_58, operation Mode is: A*B.
+DSP Report: operator mul_temp_58 is absorbed into DSP mul_temp_58.
+INFO: [Synth 8-5546] ROM "O150" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rd_en_out_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "O170" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rd_en_out_0" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP result_data[2]2, operation Mode is: (A:0xd556)*B.
+DSP Report: operator result_data[2]2 is absorbed into DSP result_data[2]2.
+DSP Report: Generating DSP result_data[2]1, operation Mode is: C+(A:0xeaaa)*B.
+DSP Report: operator result_data[2]1 is absorbed into DSP result_data[2]1.
+DSP Report: operator result_data[2]4 is absorbed into DSP result_data[2]1.
+DSP Report: Generating DSP result_data[2]1, operation Mode is: PCIN+(A:0xc000)*B.
+DSP Report: operator result_data[2]1 is absorbed into DSP result_data[2]1.
+DSP Report: operator result_data[2]3 is absorbed into DSP result_data[2]1.
+DSP Report: Generating DSP uk1, operation Mode is: (A:0x2710)*B.
+DSP Report: operator uk1 is absorbed into DSP uk1.
+DSP Report: Generating DSP result_data[2]0, operation Mode is: A*B.
+DSP Report: operator result_data[2]0 is absorbed into DSP result_data[2]0.
+DSP Report: operator result_data[2]0 is absorbed into DSP result_data[2]0.
+DSP Report: Generating DSP result_data[2]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator result_data[2]0 is absorbed into DSP result_data[2]0.
+DSP Report: operator result_data[2]0 is absorbed into DSP result_data[2]0.
+DSP Report: Generating DSP result_data[1]2, operation Mode is: C+(A:0xffff)*B.
+DSP Report: operator result_data[1]2 is absorbed into DSP result_data[1]2.
+DSP Report: operator result_data[1]4 is absorbed into DSP result_data[1]2.
+DSP Report: Generating DSP result_data[1]1, operation Mode is: A*B.
+DSP Report: operator result_data[1]1 is absorbed into DSP result_data[1]1.
+DSP Report: operator result_data[1]1 is absorbed into DSP result_data[1]1.
+DSP Report: Generating DSP result_data[1]0, operation Mode is: A*B.
+DSP Report: operator result_data[1]0 is absorbed into DSP result_data[1]0.
+DSP Report: operator result_data[1]0 is absorbed into DSP result_data[1]0.
+DSP Report: Generating DSP result_data[1]1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator result_data[1]1 is absorbed into DSP result_data[1]1.
+DSP Report: operator result_data[1]1 is absorbed into DSP result_data[1]1.
+DSP Report: Generating DSP result_data[1]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator result_data[1]0 is absorbed into DSP result_data[1]0.
+DSP Report: operator result_data[1]0 is absorbed into DSP result_data[1]0.
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decode_infor_reg_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_en_choose" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_en_choose_1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design signal_interpolation_farrow has unconnected port module_en
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_inst/\i_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_recv_inst/\clk_cnt_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_recv_inst/\clk_cnt_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_recv_inst/\clk_cnt_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_data_decode_inst/\cnt_uart_done_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_send_inst/\clk_cnt_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_send_inst/\clk_cnt_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uart_send_inst/\clk_cnt_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (algorithm_top_inst/signal_interpolation_farrow_inst/\data_reg[3][11] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 848.516 ; gain = 550.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|filter                      | A*B               | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | (A:0xd556)*B      | 12     | 16     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | C+(A:0xeaaa)*B    | 12     | 16     | 27     | -      | 27     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | PCIN+(A:0xc000)*B | 16     | 12     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | (A:0x2710)*B      | 12     | 14     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | A*B               | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | (PCIN>>17)+A*B    | 10     | 10     | -      | -      | 10     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | C+(A:0xffff)*B    | 12     | 16     | 27     | -      | 27     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | A*B               | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | A*B               | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | (PCIN>>17)+A*B    | 10     | 10     | -      | -      | 10     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|signal_interpolation_farrow | (PCIN>>17)+A*B    | 10     | 10     | -      | -      | 10     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_ip_50MHz_to_200MHz/clk_out1' to pin 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_0_inst/clk_ip_200MHz_to_9_6MHz/clk_out1' to pin 'clk_div_0_inst/clk_ip_200MHz_to_9_6MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_0_inst/clk_ip_200MHz_to_9_6MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz/clk_out1' to pin 'clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_0_1inst/clk_ip_200MHz_to_9_6MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_1_inst/clk_ip_200MHz_to_6_4MHz/clk_out1' to pin 'clk_div_1_inst/clk_ip_200MHz_to_6_4MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_1_inst/clk_ip_200MHz_to_6_4MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz/clk_out1' to pin 'clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_1_1inst/clk_ip_200MHz_to_6_4MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_2_inst/clk_ip_200MHz_to_8_82MHz/clk_out1' to pin 'clk_div_2_inst/clk_ip_200MHz_to_8_82MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_2_inst/clk_ip_200MHz_to_8_82MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz/clk_out1' to pin 'clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clk_div_2_1inst/clk_ip_200MHz_to_8_82MHz/clk_in1' to 'clk_ip_50MHz_to_200MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 13 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 875.242 ; gain = 577.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:17 . Memory (MB): peak = 917.699 ; gain = 620.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[9]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[9] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[8]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[8] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[7]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[7] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[6]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[6] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[5]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[5] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[4]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[4] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[3]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[3] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[2]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[2] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[1]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[1] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-4765] Removing register instance (\cnt_reg[0]__0 ) from module (data_waiting_area_ctrl) as it is equivalent to (\cnt_reg[0] ) and driving same net [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v:82]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/filter.v:578]
+INFO: [Common 17-14] Message 'Synth 8-5844' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:25 ; elapsed = 00:01:30 . Memory (MB): peak = 926.945 ; gain = 629.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 926.945 ; gain = 629.258
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 926.945 ; gain = 629.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 926.945 ; gain = 629.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |clk_wiz_1           |         2|
+|2     |clk_wiz_2           |         2|
+|3     |clk_wiz_3           |         2|
+|4     |data_waiting_area   |         1|
+|5     |data_waiting_area_1 |         1|
+|6     |Extraction_location |         2|
+|7     |div_gen_0           |         1|
+|8     |fifo_farrow_0       |         1|
+|9     |fifo_farrow_1       |         1|
+|10    |fifo_farrow_out     |         2|
+|11    |coefdata_rom        |         1|
+|12    |clk_wiz_0           |         1|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------+------+
+|      |Cell                   |Count |
++------+-----------------------+------+
+|1     |Extraction_location    |     1|
+|2     |Extraction_location__2 |     1|
+|3     |clk_wiz_0              |     1|
+|4     |clk_wiz_1              |     1|
+|5     |clk_wiz_1__2           |     1|
+|6     |clk_wiz_2              |     1|
+|7     |clk_wiz_2__2           |     1|
+|8     |clk_wiz_3              |     1|
+|9     |clk_wiz_3__2           |     1|
+|10    |coefdata_rom           |     1|
+|11    |data_waiting_area      |     1|
+|12    |data_waiting_area_1    |     1|
+|13    |div_gen_0              |     1|
+|14    |fifo_farrow_0          |     1|
+|15    |fifo_farrow_1          |     1|
+|16    |fifo_farrow_out        |     1|
+|17    |fifo_farrow_out__2     |     1|
+|18    |CARRY4                 |   260|
+|19    |DSP48E1                |    59|
+|20    |LUT1                   |    80|
+|21    |LUT2                   |  1074|
+|22    |LUT3                   |   991|
+|23    |LUT4                   |   938|
+|24    |LUT5                   |   230|
+|25    |LUT6                   |   470|
+|26    |MUXF7                  |     6|
+|27    |MUXF8                  |     2|
+|28    |FDCE                   |  2119|
+|29    |FDPE                   |    53|
+|30    |LDC                    |     9|
+|31    |IBUF                   |    14|
+|32    |OBUF                   |    28|
++------+-----------------------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+----------------------------------------+------+
+|      |Instance                             |Module                                  |Cells |
++------+-------------------------------------+----------------------------------------+------+
+|1     |top                                  |                                        |  6568|
+|2     |  clk_div_0_inst                     |clk_div_9_6MHz_to_12KHz__xdcDup__1      |    28|
+|3     |    clk_96KHz_inst                   |clk_96KHz__2                            |    16|
+|4     |    clk_96KHz_to_12KHz_inst          |clk_96KHz_to_12KHz__2                   |     7|
+|5     |  clk_div_1_inst                     |clk_div_6_4MHz_to_8KHz__xdcDup__1       |    28|
+|6     |    clk_64KHz_inst                   |clk_64KHz__2                            |    16|
+|7     |    clk_64KHz_to_8KHz_inst           |clk_64KHz_to_8KHz__2                    |     7|
+|8     |  clk_div_2_inst                     |clk_div_8_82MHz_to_11_025KHz__xdcDup__1 |    28|
+|9     |    clk_88_2KHz_inst                 |clk_88_2KHz__2                          |    16|
+|10    |    clk_88_2KHz_to_11_025KHz_inst    |clk_88_2KHz_to_11_025KHz__2             |     7|
+|11    |  clk_div_0_1inst                    |clk_div_9_6MHz_to_12KHz                 |    28|
+|12    |    clk_96KHz_inst                   |clk_96KHz                               |    16|
+|13    |    clk_96KHz_to_12KHz_inst          |clk_96KHz_to_12KHz                      |     7|
+|14    |  clk_div_1_1inst                    |clk_div_6_4MHz_to_8KHz                  |    28|
+|15    |    clk_64KHz_inst                   |clk_64KHz                               |    16|
+|16    |    clk_64KHz_to_8KHz_inst           |clk_64KHz_to_8KHz                       |     7|
+|17    |  clk_div_2_1inst                    |clk_div_8_82MHz_to_11_025KHz            |    28|
+|18    |    clk_88_2KHz_inst                 |clk_88_2KHz                             |    16|
+|19    |    clk_88_2KHz_to_11_025KHz_inst    |clk_88_2KHz_to_11_025KHz                |     7|
+|20    |  ad_drive_inst                      |AD9226                                  |    13|
+|21    |  da_drive_inst                      |AD9767                                  |    14|
+|22    |  da_drive_1_inst                    |AD9767_1                                |    14|
+|23    |  algorithm_top_inst                 |algorithm_top                           |  5953|
+|24    |    data_waiting_area_ctrl_inst      |data_waiting_area_ctrl                  |   109|
+|25    |    data_waiting_area_ctrl_1_inst    |data_waiting_area_ctrl_1                |   118|
+|26    |    signal_extraction_inst           |signal_extraction                       |   211|
+|27    |    signal_extraction_1_inst         |signal_extraction_1                     |   211|
+|28    |    signal_interpolation_inst        |signal_interpolation                    |   173|
+|29    |    conversion_mode_sel_inst         |conversion_mode_sel                     |    50|
+|30    |    fir_coefdata_ctrl_inst           |fir_coefdata_ctrl                       |   150|
+|31    |    filter_inst                      |filter                                  |  4490|
+|32    |    signal_interpolation_farrow_inst |signal_interpolation_farrow             |   357|
+|33    |  uart_recv_inst                     |uart_recv                               |    97|
+|34    |  uart_send_inst                     |uart_send                               |    75|
+|35    |  uart_data_decode_inst              |uart_data_decode                        |   182|
++------+-------------------------------------+----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 926.945 ; gain = 629.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:16 ; elapsed = 00:01:26 . Memory (MB): peak = 926.945 ; gain = 255.164
+Synthesis Optimization Complete : Time (s): cpu = 00:01:30 ; elapsed = 00:01:36 . Memory (MB): peak = 926.945 ; gain = 629.258
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 336 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 926.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LDC => LDCE: 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+325 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:36 ; elapsed = 00:01:41 . Memory (MB): peak = 926.945 ; gain = 642.141
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 926.945 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/synth_1/system_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_top_utilization_synth.rpt -pb system_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 17:52:07 2022...

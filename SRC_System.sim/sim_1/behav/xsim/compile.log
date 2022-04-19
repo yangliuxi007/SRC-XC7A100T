@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_out/sim/fifo_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/fifo_0/sim/fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_3_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_88_2KHz_to_11_025KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_96KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_96KHz_to_12KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div_8_82MHz_to_11_025KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div_9_6MHz_to_12KHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_interpolation_farrow_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

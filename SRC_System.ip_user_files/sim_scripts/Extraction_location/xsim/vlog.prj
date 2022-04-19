@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

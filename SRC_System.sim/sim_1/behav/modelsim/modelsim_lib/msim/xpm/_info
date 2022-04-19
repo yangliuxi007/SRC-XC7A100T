@@ -1,0 +1,33 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.sim/sim_1/behav/modelsim
+Pvcomponents
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+w1544171246
+R0
+8E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd
+FE:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd
+l0
+L11 1
+VLOKFLkQ?c7RzKO287`j<c3
+!s100 ;>SEeaBPYBj8[m7>ack7Q3
+OL;C;2020.4;71
+31
+!s110 1649937763
+!i10b 1
+!s108 1649937762.000000
+!s90 -64|-93|-work|xpm|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd|
+!s107 E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd|
+!i113 0
+o-64 -93 -work xpm
+tExplicit 1 CvgOpt 0

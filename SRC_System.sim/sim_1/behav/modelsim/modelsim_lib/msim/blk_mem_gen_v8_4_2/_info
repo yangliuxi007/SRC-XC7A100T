@@ -1,0 +1,362 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.sim/sim_1/behav/modelsim
+vbeh_vlog_ff_ce_clr_v8_4
+Z1 !s10a 1649496249
+Z2 !s110 1649938478
+!i10b 1
+!s100 L2g:=A[TH4Mj4I?B[9HQH0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXf^8m[KgT3MojPD^ZmWCV1
+R0
+Z4 w1649496249
+Z5 8../../../../SRC_System.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+Z6 F../../../../SRC_System.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+!i122 0
+L0 148 17
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1649938478.000000
+Z10 !s107 ../../../../SRC_System.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v|
+Z11 !s90 -64|-incr|-work|blk_mem_gen_v8_4_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|../../../../SRC_System.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v|
+!i113 0
+Z12 o-64 -work blk_mem_gen_v8_4_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -64 -work blk_mem_gen_v8_4_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+vbeh_vlog_ff_clr_v8_4
+R1
+R2
+!i10b 1
+!s100 hzO_OWmSbm3;J=@In]@WN3
+R3
+I^XGLid92:Geil8hfEGTzc3
+R0
+R4
+R5
+R6
+!i122 0
+L0 109 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vbeh_vlog_ff_pre_v8_4
+R1
+R2
+!i10b 1
+!s100 <236GOolaWSd1iXMlkPCL1
+R3
+IVgjQV26GA;f?f^`3TE3j_1
+R0
+R4
+R5
+R6
+!i122 0
+L0 129 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vbeh_vlog_muxf7_v8_4
+R1
+R2
+!i10b 1
+!s100 CP6Nc1meNiMRnA^MEAJmT3
+R3
+I9><fGIg7DE7_l@m4^azne0
+R0
+R4
+R5
+R6
+!i122 0
+L0 95 13
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_axi_read_wrapper_beh_v8_4
+R1
+R2
+!i10b 1
+!s100 P<YJTYUh]3Ez5V8T>om2z0
+R3
+ImQ^0l43NVh^XDTeJzI]En0
+R0
+R4
+R5
+R6
+!i122 0
+L0 1270 222
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_axi_regs_fwd_v8_4
+R1
+R2
+!i10b 1
+!s100 hJaQ5<P<K?KloF<^`KS0j0
+R3
+IQO[i1dTPfmjgFS5ci3cC32
+R0
+R4
+R5
+R6
+!i122 0
+L0 1493 62
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_axi_write_wrapper_beh_v8_4
+R1
+R2
+!i10b 1
+!s100 5;_KFiP3P1TSC^mPYAj852
+R3
+Ij7`dN`W:om^4zeDAWEcEL0
+R0
+R4
+R5
+R6
+!i122 0
+L0 994 275
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_gen_v8_4_2
+R1
+R2
+!i10b 1
+!s100 _?j7ob>S=6mI5<EFSGK@C3
+R3
+I7kK92TMmETNC^SJil=4gL3
+R0
+R4
+R5
+R6
+!i122 0
+L0 3412 1108
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_gen_v8_4_2_mem_module
+R1
+R2
+!i10b 1
+!s100 Mb0Y0IaNfXnQ5cD:NQ<_o0
+R3
+I5V`:@j5EC=F;1De3@R1Om2
+R0
+R4
+R5
+R6
+!i122 0
+L0 1951 1455
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_gen_v8_4_2_output_stage
+R1
+R2
+!i10b 1
+!s100 D[A8_fSTK]JGUkSITh8_R3
+R3
+Ik=Q2Go=1hKjC>C]64Cj0P0
+R0
+R4
+R5
+R6
+!i122 0
+L0 1563 295
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vblk_mem_gen_v8_4_2_softecc_output_reg_stage
+R1
+R2
+!i10b 1
+!s100 A:C=mL^d]i_l`0KL1GnKF2
+R3
+IDlSfFAXX?9=GSJOkC[V@[3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1859 85
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vread_netlist_v8_4
+R1
+R2
+!i10b 1
+!s100 QeO`1fgS6iGIFeD2z7TAS0
+R3
+IoRZn9_aAMk01EcK?K6Ql=0
+R0
+R4
+R5
+R6
+!i122 0
+L0 635 357
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vSTATE_LOGIC_v8_4
+R1
+R2
+!i10b 1
+!s100 m7;?`4Dj91W6Vi>bU3FbR1
+R3
+I>=jMzhggn8?7n41njPY>D1
+R0
+R4
+R5
+R6
+!i122 0
+L0 73 21
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+n@s@t@a@t@e_@l@o@g@i@c_v8_4
+vwrite_netlist_v8_4
+R1
+R2
+!i10b 1
+!s100 =c_njY7KO6R_=57:bm_BF0
+R3
+IQ[>NbO>N<;]mn=8P1OdFI2
+R0
+R4
+R5
+R6
+!i122 0
+L0 166 467
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14

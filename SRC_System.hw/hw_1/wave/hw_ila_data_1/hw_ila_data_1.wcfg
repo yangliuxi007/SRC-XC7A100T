@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8192001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="523"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/cnt_0_0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/cnt_0_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_0_0[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/cnt_0_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/cnt_0_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_0_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/cnt_1_0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/cnt_1_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_1_0[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/din_fifo" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/din_fifo[11:0]</obj_property>
+      <obj_property name="ObjectShortName">din_fifo[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/dout" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/dout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/fifo_0_dout" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/fifo_0_dout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_0_dout[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/fifo_1_dout" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/fifo_1_dout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_dout[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/flag_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/flag_0</obj_property>
+      <obj_property name="ObjectShortName">flag_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/flag_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/flag_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">flag_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/flag_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/flag_2</obj_property>
+      <obj_property name="ObjectShortName">flag_2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/flag_3" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/flag_3</obj_property>
+      <obj_property name="ObjectShortName">flag_3</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/lock_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/lock_0</obj_property>
+      <obj_property name="ObjectShortName">lock_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_data_count_0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_data_count_0[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count_0[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_data_count_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_data_count_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count_1[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_0</obj_property>
+      <obj_property name="ObjectShortName">rd_en_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_0_1clk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_0_1clk</obj_property>
+      <obj_property name="ObjectShortName">rd_en_0_1clk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_1</obj_property>
+      <obj_property name="ObjectShortName">rd_en_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_1_1clk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/rd_en_1_1clk</obj_property>
+      <obj_property name="ObjectShortName">rd_en_1_1clk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/result_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/result_tvalid</obj_property>
+      <obj_property name="ObjectShortName">result_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/tab" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/tab[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tab[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/wr_data_count_0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/wr_data_count_0[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count_0[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/wr_data_count_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/wr_data_count_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count_1[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_div_gen_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_div_gen_tvalid</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_div_gen_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_wr_en_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wr_en_0</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wr_en_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_wr_en_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wr_en_1</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wr_en_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="algorithm_top_inst/signal_interpolation_farrow_inst/pha" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">algorithm_top_inst/signal_interpolation_farrow_inst/pha[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pha[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
