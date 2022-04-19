@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="coefdata_rom_synth_1" LaunchPart="xc7a100tfgg676-2" LaunchTime="1650357545">
   <File Type="PA-TCL" Name="coefdata_rom.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="coefdata_rom_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="coefdata_rom_reports.tcl"/>
   <File Type="RDS-RDS" Name="coefdata_rom.vds"/>
   <File Type="RDS-UTIL" Name="coefdata_rom_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="coefdata_rom_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="coefdata_rom.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="coefdata_rom_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="coefdata_rom_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/coefdata_rom">
     <File Path="$PSRCDIR/sources_1/ip/coefdata_rom/coefdata_rom.xci">
       <FileInfo>

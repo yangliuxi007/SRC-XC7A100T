@@ -32,3 +32,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_
 INFO: [VRFC 10-311] analyzing module signal_interpolation_farrow_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

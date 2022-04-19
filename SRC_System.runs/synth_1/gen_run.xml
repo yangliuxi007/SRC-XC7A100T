@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tfgg676-2" LaunchTime="1650361815">
   <File Type="PA-TCL" Name="system_top.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="system_top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="system_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="system_top.vds"/>
   <File Type="RDS-UTIL" Name="system_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="system_top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="system_top.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="system_top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="system_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/fifo_farrow_out/fifo_farrow_out.xci">
@@ -324,8 +321,8 @@
     </Step>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Extraction_location"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Extraction_location"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_2"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_3"/>
   <BlockFileSet Type="BlockSrcs" Name="coefdata_rom"/>
