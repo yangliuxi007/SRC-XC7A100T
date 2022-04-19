@@ -1,0 +1,2 @@
+# SRC-XC7A100T
+vivado2018.3
