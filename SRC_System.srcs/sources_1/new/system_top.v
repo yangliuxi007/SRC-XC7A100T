@@ -179,7 +179,7 @@ module system_top(
         .dac_data   (dac_data)
     );  
 
-    AD9767_1 da_drive_1_inst(
+    AD9767_1 da_drive_inst_1(
         //input ports
         .dac_clk    (dac_clk_1),
         .sys_rstn   (locked),

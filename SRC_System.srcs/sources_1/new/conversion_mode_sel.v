@@ -22,12 +22,12 @@ module conversion_mode_sel(
     wire [7:0]integer_div_result;
 
     //////////// assign part
-    assign fs_compare = (target_fs<convert_fs) ? 1'd1 : 1'd0;
-    assign divisor = fs_compare ? target_fs : convert_fs;
-    assign dividend = fs_compare ? convert_fs : target_fs;
-    assign integer_div_result = div_over ? div_result[15:8] : 8'd0;
-    assign multiple_i = fs_compare ? integer_div_result : 4'd0;
-    assign multiple_e = !fs_compare ? integer_div_result : 4'd0;
+    assign fs_compare         = lock ? ((target_fs<convert_fs) ? 1'd1 : 1'd0)    : 1'd0;
+    assign divisor            = lock ? (fs_compare ? target_fs : convert_fs)     : 8'd0;
+    assign dividend           = lock ? (fs_compare ? convert_fs : target_fs)     : 8'd0;
+    assign integer_div_result = lock ? (div_over ? div_result[15:8] : 8'd0)      : 8'd0;
+    assign multiple_i         = lock ? (fs_compare ? integer_div_result : 4'd0)  : 4'd0;
+    assign multiple_e         = lock ? (!fs_compare ? integer_div_result : 4'd0) : 4'd0;
 
     //////////// ip core part
     div_gen_0 div_ip (

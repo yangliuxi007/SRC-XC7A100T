@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Tue Apr 19 17:55:09 2022
+| Date             : Fri Apr 22 21:05:00 2022
 | Host             : DESKTOP-E68HFE0 running 64-bit major release  (build 9200)
 | Command          : report_power -file system_top_power_routed.rpt -pb system_top_power_summary_routed.pb -rpx system_top_power_routed.rpx
 | Design           : system_top
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.860        |
+| Total On-Chip Power (W)  | 0.870        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.761        |
+| Dynamic (W)              | 0.771        |
 | Device Static (W)        | 0.099        |
 | Effective TJA (C/W)      | 2.6          |
-| Max Ambient (C)          | 82.8         |
-| Junction Temperature (C) | 27.2         |
+| Max Ambient (C)          | 82.7         |
+| Junction Temperature (C) | 27.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,21 +53,21 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.012 |       17 |       --- |             --- |
-| Slice Logic             |     0.007 |     8011 |       --- |             --- |
-|   LUT as Logic          |     0.006 |     3207 |     63400 |            5.06 |
-|   CARRY4                |    <0.001 |      334 |     15850 |            2.11 |
-|   Register              |    <0.001 |     3097 |    126800 |            2.44 |
-|   LUT as Shift Register |    <0.001 |        5 |     19000 |            0.03 |
+| Slice Logic             |     0.011 |     8782 |       --- |             --- |
+|   LUT as Logic          |     0.010 |     3725 |     63400 |            5.88 |
+|   CARRY4                |     0.001 |      440 |     15850 |            2.78 |
+|   Register              |    <0.001 |     3185 |    126800 |            2.51 |
+|   LUT as Shift Register |    <0.001 |        9 |     19000 |            0.05 |
 |   F7/F8 Muxes           |    <0.001 |        8 |     63400 |            0.01 |
-|   Others                |     0.000 |      295 |       --- |             --- |
-| Signals                 |     0.008 |     8408 |       --- |             --- |
-| Block RAM               |    <0.001 |        4 |       135 |            2.96 |
+|   Others                |     0.000 |      305 |       --- |             --- |
+| Signals                 |     0.012 |     9747 |       --- |             --- |
+| Block RAM               |    <0.001 |        5 |       135 |            3.70 |
 | MMCM                    |     0.328 |        3 |         6 |           50.00 |
 | PLL                     |     0.407 |        4 |         6 |           66.67 |
-| DSPs                    |     0.000 |       59 |       240 |           24.58 |
+| DSPs                    |    <0.001 |       79 |       240 |           32.92 |
 | I/O                     |    <0.001 |       43 |       300 |           14.33 |
 | Static Power            |     0.099 |          |           |                 |
-| Total                   |     0.860 |          |           |                 |
+| Total                   |     0.870 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.081 |       0.065 |      0.016 |
+| Vccint    |       1.000 |     0.091 |       0.075 |      0.016 |
 | Vccaux    |       1.800 |     0.405 |       0.387 |      0.018 |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -160,13 +160,13 @@ Table of Contents
 +--------------------------------------+-----------+
 | Name                                 | Power (W) |
 +--------------------------------------+-----------+
-| system_top                           |     0.761 |
-|   algorithm_top_inst                 |     0.014 |
+| system_top                           |     0.771 |
+|   algorithm_top_inst                 |     0.024 |
 |     conversion_mode_sel_inst         |     0.005 |
-|       div_ip                         |     0.004 |
-|     signal_extraction_1_inst         |     0.001 |
-|     signal_extraction_inst           |     0.001 |
-|     signal_interpolation_farrow_inst |     0.004 |
+|       div_ip                         |     0.005 |
+|     signal_interpolation_farrow_inst |     0.015 |
+|       fifo_farrow_0_inst             |     0.001 |
+|       fifo_farrow_1_inst             |     0.001 |
 |   clk_div_0_1inst                    |     0.107 |
 |     clk_ip_200MHz_to_9_6MHz          |     0.107 |
 |       inst                           |     0.107 |
@@ -187,7 +187,8 @@ Table of Contents
 |       inst                           |     0.112 |
 |   clk_ip_50MHz_to_200MHz             |     0.106 |
 |     inst                             |     0.106 |
-|   uart_data_decode_inst              |     0.001 |
+|   uart_data_decode_inst              |     0.002 |
+|   uart_recv_inst                     |     0.001 |
 +--------------------------------------+-----------+
 
 

@@ -19,7 +19,6 @@ proc create_report { reportName command } {
 }
 set_param general.maxThreads 8
 set_param simulator.modelsimInstallPath E:/Modelsim/win64
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a100tfgg676-2
 
 set_param project.singleFileAddWarning.threshold 0
@@ -33,7 +32,6 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo d:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files D:/No_desktop/FPGA_part/Graduation_project/SRC_System/ui_src/coefdata_12k_96k.coe
 add_files D:/No_desktop/FPGA_part/Graduation_project/SRC_System/ui_src/Extraction_location.coe
 add_files D:/No_desktop/FPGA_part/Graduation_project/SRC_System/ui_src/sin_1K.coe
 add_files D:/No_desktop/FPGA_part/Graduation_project/SRC_System/ui_src/coefdata.coe

@@ -3,9 +3,9 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f2478a823b764b0883516d8363c7957b --incr --debug typical --relax --mt 8 -L fifo_generator_v13_2_3 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 6 for port 'addra' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:105]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'target_fs' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:148]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'convert_fs' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:149]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 6 for port 'addra' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'target_fs' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'convert_fs' [D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v:87]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis

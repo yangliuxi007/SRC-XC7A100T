@@ -49,8 +49,8 @@ module algorithm_top(
 
     assign coefdata = rom_en_2clk ? coef_rom_douta : 16'd0;
     assign result_data = (tab != 4'd0) ? dout_f : (fs_compare ? filter_out : (data_en ? doutb : (data_en_1 ? doutb_1 : 12'd0)));
-    
-    assign din = fs_compare ? 12'd0 : filter_out;
+        
+    assign din = fs_compare ? 12'd0 : ((multiple_e == 4'd8) ? (filter_out - 11'd2047) : filter_out);
     assign filter_in = fs_compare ? dout_i : adc_data;
     assign fir_sample_clk = fs_compare ? conver_clk : sample_clk;
 
@@ -166,17 +166,17 @@ module algorithm_top(
 
     signal_interpolation_farrow signal_interpolation_farrow_inst(
         //input ports
-        .module_clk   (module_clk),
+        .module_clk   (module_clk), 
         .sample_clk   (sample_clk),
-        .sys_rstn     (lock),    
-        .conver_clk   (conver_clk),     
-        // .module_en    (),
+        .conver_clk   (conver_clk),
+        .sys_rstn     (lock),         
+        .module_en    (),
         .din          (adc_data),
         .target_fs    (target_fs),
         .convert_fs   (convert_fs),
         //output ports    
         .dout         (dout_f),
-        .tab          (tab) 
+        .tab          (tab)
     );
 
     //////////// ip core part

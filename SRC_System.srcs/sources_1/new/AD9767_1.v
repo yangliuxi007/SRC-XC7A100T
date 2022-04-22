@@ -13,7 +13,7 @@ module AD9767_1(
     reg [11:0] dac_data_reg;
 
     //////////// assign part
-    assign dac_data[11] = dac_data_reg[11];
+    assign dac_data[11] = ~dac_data_reg[11];
     assign dac_data[10:0] = dac_data_reg[10:0]; 
 
     always@(negedge dac_clk or negedge sys_rstn)begin

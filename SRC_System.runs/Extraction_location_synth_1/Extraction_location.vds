@@ -2,13 +2,14 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Apr  7 18:30:56 2022
-# Process ID: 7112
+# Start of session at: Tue Apr 19 19:37:59 2022
+# Process ID: 20248
 # Current directory: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/Extraction_location_synth_1
 # Command line: vivado.exe -log Extraction_location.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Extraction_location.tcl
 # Log file: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/Extraction_location_synth_1/Extraction_location.vds
 # Journal file: D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.runs/Extraction_location_synth_1\vivado.jou
 #-----------------------------------------------------------
+Sourcing tcl script 'E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/scripts/Vivado_init.tcl'
 source Extraction_location.tcl -notrace
 INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Extraction_location, cache-ID = 514ed8a398993e5b.
-INFO: [Common 17-206] Exiting Vivado at Thu Apr  7 18:31:22 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 19:38:05 2022...

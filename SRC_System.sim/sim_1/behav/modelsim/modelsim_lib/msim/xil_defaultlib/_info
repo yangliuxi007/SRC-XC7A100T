@@ -10,623 +10,1441 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.sim/sim_1/behav/modelsim
-T_opt
-!s110 1649943352
-VVa7=Ph[BW^>>63I>`db5]0
-04 6 4 work top_tb fast 0
-04 4 4 work glbl fast 0
-=13-c8d9d293cf76-62582337-96-1c0c
-o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_0_15 -L xbip_dsp48_mult_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L div_gen_v5_1_14 -L xil_defaultlib -L fifo_generator_v13_2_3 -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
-Z1 tCvgOpt 0
-n@_opt
-OL;O;2020.4;71
+T_opt1
+!s110 1650437974
+VEXc[A5n^3E0K2zKh0@e]k0
+Z1 04 6 4 work top_tb fast 0
+Z2 04 4 4 work glbl fast 0
+=1-c8d9d293cf76-625faf53-393-3eec
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L fifo_generator_v13_2_3 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_0_15 -L xbip_dsp48_mult_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L div_gen_v5_1_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z3 tCvgOpt 0
+n@_opt1
+Z4 OL;O;2020.4;71
+R0
+T_opt2
+!s110 1650616603
+V<g0a;]jTV7A5J?ko`Z>CW0
+R1
+R2
+=31-c8d9d293cf76-6262691a-210-4794
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L fifo_generator_v13_2_3 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+R3
+n@_opt2
+R4
+vAD9767_1
+!s10a 1650431980
+Z5 !s110 1650433838
+!i10b 1
+!s100 UhlYNZYYAlY_oiJDhKNIG3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If65hUB[66JBeHhMj]]7R:1
+R0
+w1650431980
+8../../../../SRC_System.srcs/sources_1/new/AD9767_1.v
+F../../../../SRC_System.srcs/sources_1/new/AD9767_1.v
+!i122 27
+L0 3 24
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1650433838.000000
+Z10 !s107 ../../../../SRC_System.srcs/sim_1/new/top_tb.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction.v|../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v|../../../../SRC_System.srcs/sources_1/new/filter.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v|../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/algorithm_top.v|../../../../SRC_System.srcs/sources_1/new/AD9767_1.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v|../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v|
+Z11 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/new/AD9767_1.v|../../../../SRC_System.srcs/sources_1/new/algorithm_top.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v|../../../../SRC_System.srcs/sources_1/new/filter.v|../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sim_1/new/top_tb.v|
+!i113 0
+Z12 o-64 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -64 -work xil_defaultlib +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@d9767_1
+valgorithm_top
+!s10a 1650431913
+R5
+!i10b 1
+!s100 ;HK4R>nTS<S1iR;QzZT^z3
+R6
+I0cm`Q3jd02B9a;;GgLg<P2
+R0
+w1650431913
+8../../../../SRC_System.srcs/sources_1/new/algorithm_top.v
+F../../../../SRC_System.srcs/sources_1/new/algorithm_top.v
+!i122 27
+L0 3 189
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
 vasym_bwe_bb
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1649937762
+Z14 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z15 !s110 1649937762
 !i10b 1
 !s100 =OE^[O9KBC6g;Bdf>YXU13
-Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R6
 Ii8UDk7_U@Xc`Q1<f?eknG2
 S1
 R0
-Z5 w1544171246
-Z6 8E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
-Z7 FE:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z16 w1544171246
+Z17 8E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z18 FE:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
 !i122 0
 L0 8013 54
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2020.4;71
+R7
+R8
 r1
 !s85 0
 31
-Z10 !s108 1649937761.000000
-Z11 !s107 E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
-Z12 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+Z19 !s108 1649937761.000000
+Z20 !s107 E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+Z21 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
 !i113 0
-Z13 o-64 -sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z14 !s92 -64 -sv -work xil_defaultlib +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+Z22 o-64 -sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z23 !s92 -64 -sv -work xil_defaultlib +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vblk_mem_gen_0
-!s10a 1649323308
-Z15 !s110 1649938478
+!s10a 1650363594
+R5
 !i10b 1
 !s100 QU;TKjPeKlWH123M<W^QZ3
-R4
-Ih@B8LljBjW]og_Z;DfZ6@2
+R6
+IfTODW<^5`=h=?fDMJn1mY1
 R0
-w1649323308
+w1650363594
 8../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
 F../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
-!i122 3
+!i122 27
 L0 56 156
+R7
 R8
-R9
 r1
 !s85 0
 31
-Z16 !s108 1649938478.000000
-!s107 ../../../../SRC_System.srcs/sim_1/new/top_tb.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
-!s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sim_1/new/top_tb.v|
+R9
+R10
+R11
 !i113 0
-Z17 o-64 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z18 !s92 -64 -work xil_defaultlib +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3 +incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+R12
+R13
+R3
+vclk_88_2KHz
+Z24 !s10a 1650363464
+Z25 !s110 1650437954
+!i10b 1
+!s100 DA^:c=1<IQiU?;Ime9A<U2
+R6
+I_E3FiO<<nLGDijZTUcZld1
+R0
+Z26 w1650363464
+8../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v
+!i122 39
+Z27 L0 3 36
+R7
+R8
+r1
+!s85 0
+31
+Z28 !s108 1650437954.000000
+Z29 !s107 ../../../../SRC_System.srcs/sim_1/new/top_tb.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction.v|../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v|../../../../SRC_System.srcs/sources_1/new/filter.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v|../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v|../../../../SRC_System.srcs/sources_1/new/algorithm_top.v|../../../../SRC_System.srcs/sources_1/new/AD9767_1.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v|../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v|
+Z30 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v|../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/new/AD9767_1.v|../../../../SRC_System.srcs/sources_1/new/algorithm_top.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v|../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v|../../../../SRC_System.srcs/sources_1/new/filter.v|../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction.v|../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|../../../../SRC_System.srcs/sim_1/new/top_tb.v|
+!i113 0
+R12
+R13
+R3
+nclk_88_2@k@hz
+vclk_88_2KHz_to_11_025KHz
+R24
+R25
+!i10b 1
+!s100 bIYod4bodon]H9oTWTR_L0
+R6
+I8c4D9l6[gIH7^?c20afnc0
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v
+!i122 39
+Z31 L0 3 45
+R7
+R8
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 0
+R12
+R13
+R3
+nclk_88_2@k@hz_to_11_025@k@hz
+vclk_96KHz
+R24
+R5
+!i10b 1
+!s100 NK[o`9H8AXYa0hjb43:IS0
+R6
+I8cZ=^5V`?TR88CFUF1Pc32
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v
+!i122 27
+R27
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+nclk_96@k@hz
+vclk_96KHz_to_12KHz
+R24
+R5
+!i10b 1
+!s100 `GF2d^b]?f?<Z^<T<Z9<H0
+R6
+I@GJ3D2;=DS159RilGK;CA1
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v
+!i122 27
+R31
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+nclk_96@k@hz_to_12@k@hz
+vclk_div_8_82MHz_to_11_025KHz
+R24
+R25
+!i10b 1
+!s100 1nhgnC]W1nO_@[fW=SI201
+R6
+I^:]:0YTIZ?nVZ[LOHX0Go0
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v
+!i122 39
+Z32 L0 3 70
+R7
+R8
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 0
+R12
+R13
+R3
+nclk_div_8_82@m@hz_to_11_025@k@hz
+vclk_div_9_6MHz_to_12KHz
+R24
+R5
+!i10b 1
+!s100 HEo?Qz@lL]LYmQjbH^dmE2
+R6
+IU=?>JJ;JbP7E[`nJ3fzNI2
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v
+F../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v
+!i122 27
+R32
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+nclk_div_9_6@m@hz_to_12@k@hz
+vclk_wiz_0
+Z33 !s10a 1650363462
+R5
+!i10b 1
+!s100 Blk[=3SkFH7;k2imo`j7<2
+R6
+I:UEZcBkbf]Y7RAfHEl>UC3
+R0
+Z34 w1650363462
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+!i122 27
+Z35 L0 70 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_wiz_0_clk_wiz
+R33
+R5
+!i10b 1
+!s100 n>=XfHG[7mW88XRT;``?@3
+R6
+I@mfSMUz5U79g<4R3GGE370
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+!i122 27
+Z36 L0 68 137
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_wiz_1
+R33
+R5
+!i10b 1
+!s100 n<PVJG7zhjKO?3Tc>24B61
+R6
+I9z12bY1IaK70Ya6X_WDal3
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v
+!i122 27
+R35
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_wiz_1_clk_wiz
+R33
+R5
+!i10b 1
+!s100 SULJ5C`z4Aol_TT4A4GI<3
+R6
+Ionc:j?F@l:5PlmiN@3_:N3
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v
+!i122 27
+L0 68 117
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_wiz_3
+R33
+R25
+!i10b 1
+!s100 L=_a5;_h_K:I^azIOJ4PJ1
+R6
+I=G_;89mLC2Ka[dNKc5>Ci0
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v
+!i122 39
+R35
+R7
+R8
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 0
+R12
+R13
+R3
+vclk_wiz_3_clk_wiz
+R33
+R25
+!i10b 1
+!s100 aC^@bF8SEMZXfQVgBZn>E0
+R6
+IB?h9c=>Eao^?jc<0U0CIz1
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v
+F../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v
+!i122 39
+R36
+R7
+R8
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 0
+R12
+R13
+R3
+vcoefdata_rom
+!s10a 1650433447
+!s110 1650433825
+!i10b 1
+!s100 Il=b@`an]DlgUzhKLfO?81
+R6
+I3L0^bMkn>nYXdWWGBF0RJ2
+R0
+w1650433447
+8../../../../SRC_System.srcs/sources_1/ip/coefdata_rom/sim/coefdata_rom.v
+F../../../../SRC_System.srcs/sources_1/ip/coefdata_rom/sim/coefdata_rom.v
+!i122 24
+Z37 L0 56 159
+R7
+R8
+r1
+!s85 0
+31
+!s108 1650433825.000000
+!s107 ../../../../SRC_System.srcs/sources_1/ip/coefdata_rom/sim/coefdata_rom.v|
+!s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/coefdata_rom/sim/coefdata_rom.v|
+!i113 0
+R12
+R13
+R3
+vconversion_mode_sel
+R24
+R5
+!i10b 1
+!s100 <ZIaP[[:nfh8E[BYY1nJ70
+R6
+IM4M^3VnLcTeFmcg=1`JZ21
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v
+F../../../../SRC_System.srcs/sources_1/new/conversion_mode_sel.v
+!i122 27
+L0 4 40
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vdata_waiting_area
+R33
+R5
+!i10b 1
+!s100 lClI]XEz9f^khSLQ;De@_3
+R6
+I[dYB5DDT@W0E`XOMG?8Og3
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v
+F../../../../SRC_System.srcs/sources_1/ip/data_waiting_area/sim/data_waiting_area.v
+!i122 27
+Z38 L0 56 175
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vdata_waiting_area_1
+R33
+R5
+!i10b 1
+!s100 oaf4W`HQ1YmlMJ5U=h3Kc2
+R6
+Ig?bhD2_?0Gz@2C=7lnJX<3
+R0
+R34
+8../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v
+F../../../../SRC_System.srcs/sources_1/ip/data_waiting_area_1/sim/data_waiting_area_1.v
+!i122 27
+R38
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vdata_waiting_area_ctrl
+R24
+R5
+!i10b 1
+!s100 ?=LRbCH[QK5MN1<ko?[>U0
+R6
+IX?6CF]cVQ?_@gIiTDGN^B2
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v
+F../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl.v
+!i122 27
+L0 3 126
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vdata_waiting_area_ctrl_1
+R24
+R5
+!i10b 1
+!s100 [AXl1Ez0gA;R9VchPe?9H1
+R6
+IhYhTbl^AGNcTVf<1aXcnG3
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v
+F../../../../SRC_System.srcs/sources_1/new/data_waiting_area_ctrl_1.v
+!i122 27
+L0 3 122
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+Ediv_gen_0
+R34
+Z39 DPx15 div_gen_v5_1_14 24 div_gen_v5_1_14_viv_comp 0 22 Doc@5E1NPUMf=2MK@7LXE2
+Z40 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 g?Y]L5OaM47U4QlBnP3e60
+Z41 DEx15 div_gen_v5_1_14 15 div_gen_v5_1_14 0 22 7BM[KOC^ILjFR`XdGX^]40
+Z42 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z43 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z44 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 38
+R0
+Z45 8../../../../SRC_System.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd
+Z46 F../../../../SRC_System.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd
+l0
+Z47 L59 1
+V=<RoN=RFD;[:d;SLGKDUe2
+!s100 ez?5IFZiQk8mV98o3b34o1
+Z48 OL;C;2020.4;71
+31
+R25
+!i10b 1
+R28
+Z49 !s90 -64|-93|-work|xil_defaultlib|../../../../SRC_System.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd|
+Z50 !s107 ../../../../SRC_System.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd|
+!i113 0
+Z51 o-64 -93 -work xil_defaultlib
+Z52 tExplicit 1 CvgOpt 0
+Adiv_gen_0_arch
+R39
+R40
+R42
+R43
+R44
+DEx4 work 9 div_gen_0 0 22 =<RoN=RFD;[:d;SLGKDUe2
+!i122 38
+l135
+Z53 L71 109
+VhRekN]@>MJbf6E@;^O0]J2
+!s100 NZaW947^a4?cG2b><N0J82
+R48
+31
+R25
+!i10b 1
+R28
+R49
+R50
+!i113 0
+R51
+R52
 Ediv_gen_1
-Z19 w1649939144
-Z20 DPx15 div_gen_v5_1_14 24 div_gen_v5_1_14_viv_comp 0 22 Doc@5E1NPUMf=2MK@7LXE2
-Z21 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 g?Y]L5OaM47U4QlBnP3e60
-DEx15 div_gen_v5_1_14 15 div_gen_v5_1_14 0 22 7BM[KOC^ILjFR`XdGX^]40
-Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z23 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z24 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z54 w1649939144
+R39
+R40
+R41
+R42
+R43
+R44
 !i122 8
 R0
-Z25 8../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd
-Z26 F../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd
+Z55 8../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd
+Z56 F../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd
 l0
-L59 1
+R47
 VJ>g46EP9gd>4nCJYEXb_S2
 !s100 0LTCFCSCYzT]@Pjih?P[62
-Z27 OL;C;2020.4;71
+R48
 31
-Z28 !s110 1649940168
+Z57 !s110 1649940168
 !i10b 1
-Z29 !s108 1649940168.000000
-Z30 !s90 -64|-93|-work|xil_defaultlib|../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd|
-Z31 !s107 ../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd|
+Z58 !s108 1649940168.000000
+Z59 !s90 -64|-93|-work|xil_defaultlib|../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd|
+Z60 !s107 ../../../../SRC_System.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd|
 !i113 0
-Z32 o-64 -93 -work xil_defaultlib
-Z33 tExplicit 1 CvgOpt 0
+R51
+R52
 Adiv_gen_1_arch
-R20
-R21
-R22
-R23
-R24
+R39
+R40
+R42
+R43
+R44
 DEx4 work 9 div_gen_1 0 22 J>g46EP9gd>4nCJYEXb_S2
 !i122 8
 l135
-L71 109
+R53
 VTl_GI4JWzzCS`POIGHI3K0
 !s100 IidV7ZD@SdA37z^;LLXCH1
-R27
+R48
 31
-R28
+R57
 !i10b 1
-R29
-R30
-R31
+R58
+R59
+R60
 !i113 0
-R32
-R33
+R51
+R52
+vExtraction_location
+!s10a 1650433448
+R5
+!i10b 1
+!s100 Lb95VV4T;C@RDglLYMD;[3
+R6
+IDKk21jYW9FdAF2ggiJ^D[0
+R0
+w1650433448
+8../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v
+F../../../../SRC_System.srcs/sources_1/ip/Extraction_location/sim/Extraction_location.v
+!i122 27
+R37
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@extraction_location
+vfifo_0
+Z61 !s10a 1650363463
+Z62 !s110 1650441481
+!i10b 1
+!s100 j@HDl7idl`7>fY=5=X2`m2
+R6
+I>IhA2kUGg14:do=<@E51m1
+R0
+Z63 w1650363463
+8../../../../SRC_System.srcs/sources_1/ip/fifo_0/sim/fifo_0.v
+F../../../../SRC_System.srcs/sources_1/ip/fifo_0/sim/fifo_0.v
+!i122 41
+Z64 L0 56 471
+R7
+R8
+r1
+!s85 0
+31
+Z65 !s108 1650441481.000000
+Z66 !s107 ../../../../SRC_System.srcs/sources_1/ip/fifo_0/sim/fifo_0.v|../../../../SRC_System.srcs/sources_1/ip/fifo_out/sim/fifo_out.v|
+Z67 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/fifo_out/sim/fifo_out.v|../../../../SRC_System.srcs/sources_1/ip/fifo_0/sim/fifo_0.v|
+!i113 0
+R12
+R13
+R3
 vfifo_farrow_0
-!s10a 1649834578
-R15
+R61
+Z68 !s110 1650433829
 !i10b 1
 !s100 kTg1BRC>Jze]i:<`VcXdB3
-R4
-IAOQjMl8h:giJiI6P7A19X2
+R6
+I[XX:BBCeOO7V>69U^3nFP1
 R0
-w1649834578
+R63
 8../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v
 F../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v
-!i122 2
-Z34 L0 56 477
+!i122 25
+Z69 L0 56 477
+R7
 R8
-R9
 r1
 !s85 0
 31
-R16
-Z35 !s107 ../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v|
-Z36 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v|
+Z70 !s108 1650433829.000000
+Z71 !s107 ../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_out/sim/fifo_farrow_out.v|
+Z72 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_out/sim/fifo_farrow_out.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v|../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_0/sim/fifo_farrow_0.v|
 !i113 0
-R17
-R18
-R1
+R12
+R13
+R3
 vfifo_farrow_1
-!s10a 1649834614
-R15
+R61
+R68
 !i10b 1
 !s100 20]_dkV0NCn>QCc[XPQ^F1
-R4
-IDUFX:cCzab2eMbD7Nl0[k2
+R6
+IMhLSm[5O4zong6Rf<Z6[Y2
 R0
-w1649834614
+R63
 8../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v
 F../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_1/sim/fifo_farrow_1.v
-!i122 2
-R34
+!i122 25
+R69
+R7
 R8
-R9
 r1
 !s85 0
 31
-R16
-R35
-R36
+R70
+R71
+R72
 !i113 0
-R17
-R18
-R1
+R12
+R13
+R3
+vfifo_farrow_out
+R61
+R68
+!i10b 1
+!s100 IW9L5F>>L6b75GZB>E7`81
+R6
+IEL6PaF@RTVA8<QQfA@XNF0
+R0
+R63
+8../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_out/sim/fifo_farrow_out.v
+F../../../../SRC_System.srcs/sources_1/ip/fifo_farrow_out/sim/fifo_farrow_out.v
+!i122 25
+R69
+R7
+R8
+r1
+!s85 0
+31
+R70
+R71
+R72
+!i113 0
+R12
+R13
+R3
+vfifo_out
+R61
+R62
+!i10b 1
+!s100 4AW:^0oMgg8Pcj^lGbfJf2
+R6
+IbRVnWHmk@doHA6FfDj0In3
+R0
+R63
+8../../../../SRC_System.srcs/sources_1/ip/fifo_out/sim/fifo_out.v
+F../../../../SRC_System.srcs/sources_1/ip/fifo_out/sim/fifo_out.v
+!i122 41
+R64
+R7
+R8
+r1
+!s85 0
+31
+R65
+R66
+R67
+!i113 0
+R12
+R13
+R3
+vfilter
+R24
+R5
+!i10b 1
+!s100 MEzJ:ez<VRTPdAUbTW>=C1
+R6
+I=Lf810lmPC@XJb>oMSWWC2
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/filter.v
+F../../../../SRC_System.srcs/sources_1/new/filter.v
+!i122 27
+L0 5 1187
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vfir_coefdata_ctrl
+R24
+R5
+!i10b 1
+!s100 <QkKRKFbO<T2TUVaLcb`O0
+R6
+IT<0G;jF4L:[MUTYfkO63B2
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v
+F../../../../SRC_System.srcs/sources_1/new/fir_coefdata_ctrl.v
+!i122 27
+L0 3 107
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
 vglbl
-!s110 1649940171
+!s110 1650529420
 !i10b 1
 !s100 DCW3=ePZ4oEojGg2KL;HS0
-R4
+R6
 ITNN_cbZIG@:>zYe@^CH>f0
 R0
-w1544155481
+w1650363460
 8glbl.v
 Fglbl.v
-!i122 10
+!i122 98
 L0 6 65
+R7
 R8
-R9
 r1
 !s85 0
 31
-!s108 1649940171.000000
+!s108 1650529420.000000
 !s107 glbl.v|
 !s90 -work|xil_defaultlib|glbl.v|
 !i113 0
 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vsignal_interpolation_farrow
-!s110 1649943347
-!i10b 1
-!s100 ]0Q6IzY`HVJE^4E?b]M6X1
-R4
-IV_HEEgn1^k4N?<7V3Z<iF3
-R0
-w1649943293
-8D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v
-FD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v
-!i122 23
-L0 5 348
-R8
-R9
-r1
-!s85 0
-31
-!s108 1649943347.000000
-!s107 D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|
-!s90 -reportprogress|300|-64|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v|
-!i113 0
-R17
-R18
-R1
-vtop_tb
-!s110 1649942592
-!i10b 1
-!s100 KWmbo?;di1RZ7dY07B4Ze2
-R4
-I=V5GL0gen=3HAlnSMcjV10
-R0
-w1649929235
-8D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v
-FD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v
-!i122 18
-L0 3 169
-R8
-R9
-r1
-!s85 0
-31
-!s108 1649942592.000000
-!s107 D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v|
-!s90 -reportprogress|300|-64|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_4|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sim_1/new/top_tb.v|
-!i113 0
-R17
-R18
-R1
-vxpm_cdc_array_single
-R2
 R3
+vsignal_extraction
+R24
+R5
+!i10b 1
+!s100 g^Aoe7VJaa0AOZPBZNQI_0
+R6
+IGoI1RA13>B9ZJPeVXEPUz1
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/signal_extraction.v
+F../../../../SRC_System.srcs/sources_1/new/signal_extraction.v
+!i122 27
+Z73 L0 3 86
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vsignal_extraction_1
+R24
+R5
+!i10b 1
+!s100 :lXCfU3_W9BVmPEBR;THI1
+R6
+I9ATKNlaNK0KjC<GnaAD`<3
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v
+F../../../../SRC_System.srcs/sources_1/new/signal_extraction_1.v
+!i122 27
+R73
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vsignal_interpolation
+R24
+R5
+!i10b 1
+!s100 90e32XHo^fnh;[>b_C5X01
+R6
+ITn<QEZVCTS7QO7>lR5n1W1
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v
+F../../../../SRC_System.srcs/sources_1/new/signal_interpolation.v
+!i122 27
+L0 3 67
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vsignal_interpolation_farrow
+R24
+R5
+!i10b 1
+!s100 :U>Yb_M0o9<^TC@UY2m<Y0
+R6
+IMEFNYz?D8AP4R59<:nLYj1
+R0
+R26
+8../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v
+F../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow.v
+!i122 27
+L0 3 425
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vsignal_interpolation_farrow_1
+!s110 1650616594
+!i10b 1
+!s100 kaP;IIfFd[:f^D;9180VW2
+R6
+ICfKAFk>TbhWJQ?cHzH1lH0
+R0
+w1650616589
+8D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v
+FD:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v
+!i122 128
+L0 3 453
+R7
+R8
+r1
+!s85 0
+31
+!s108 1650616594.000000
+!s107 D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v|
+!s90 -reportprogress|300|-64|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v|
+!i113 0
+R12
+R13
+R3
+vtop_tb
+!s10a 1650518748
+!s110 1650523529
+!i10b 1
+!s100 miMjaBI35hP6mW?0?]TeU3
+R6
+I<Rn2cd`]Y9o1Y?En3kmIb3
+R0
+w1650518748
+8../../../../SRC_System.srcs/sim_1/new/top_tb.v
+F../../../../SRC_System.srcs/sim_1/new/top_tb.v
+!i122 80
+L0 3 91
+R7
+R8
+r1
+!s85 0
+31
+!s108 1650523529.000000
+!s107 ../../../../SRC_System.srcs/sim_1/new/top_tb.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+!s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_2|+incdir+../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3|../../../../SRC_System.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v|../../../../SRC_System.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_88_2KHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_96KHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_8_82MHz_to_11_025KHz.v|../../../../SRC_System.srcs/sources_1/new/clk_div_9_6MHz_to_12KHz.v|../../../../SRC_System.srcs/sources_1/new/signal_interpolation_farrow_1.v|../../../../SRC_System.srcs/sim_1/new/top_tb.v|
+!i113 0
+R12
+R13
+R3
+vxpm_cdc_array_single
+R14
+R15
 !i10b 1
 !s100 8EUCVBeBZj;9lDKdUoLf;3
-R4
+R6
 ID5@9;EYAc:l2gc9^AY14J2
 S1
 R0
-R5
-Z37 8E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
-Z38 FE:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+R16
+Z74 8E:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+Z75 FE:/Xilinx_Tool/Vivado_2018.3/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
 !i122 0
 L0 903 147
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_async_rst
-R2
+R22
+R23
 R3
+vxpm_cdc_async_rst
+R14
+R15
 !i10b 1
 !s100 TzmBA:2VN27]_bM]Wmn563
-R4
+R6
 I7AcRB5bgzTbeUYKoKZozl2
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 1171 84
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_gray
-R2
+R22
+R23
 R3
+vxpm_cdc_gray
+R14
+R15
 !i10b 1
 !s100 J4VjNJn_BIOIkdC@Qmdee3
-R4
+R6
 IGN9_2kjY@5G=958JOLl7F3
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 284 179
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_handshake
-R2
+R22
+R23
 R3
+vxpm_cdc_handshake
+R14
+R15
 !i10b 1
 !s100 24TAQfbL?ZV6SKP4ZF?N72
-R4
+R6
 Ii[4^S?LIlQOlbTjPDniUY1
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 469 238
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_low_latency_handshake
-R2
+R22
+R23
 R3
+vxpm_cdc_low_latency_handshake
+R14
+R15
 !i10b 1
 !s100 kJTe6QbGX]Ab[3::=6c>U0
-R4
+R6
 IGfQ7PmO9;[V8AG]oHlDo30
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 1261 218
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_pulse
-R2
+R22
+R23
 R3
+vxpm_cdc_pulse
+R14
+R15
 !i10b 1
 !s100 3b_`EC0cZ?7CJW?0V<o5f0
-R4
+R6
 I2NR@]NnV0[EGeiLQVf39l2
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 715 183
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_single
-R2
+R22
+R23
 R3
+vxpm_cdc_single
+R14
+R15
 !i10b 1
 !s100 l@<[5Ejg`3h[XRR7n1U1i3
-R4
+R6
 I3L=;WRdN^b2SjYg3<^1eY0
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 153 125
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_cdc_sync_rst
-R2
+R22
+R23
 R3
+vxpm_cdc_sync_rst
+R14
+R15
 !i10b 1
 !s100 h:SS[U?>giDAkz1mZZ5a90
-R4
+R6
 IZaXh<K4k0A7AQib8HVIL50
 S1
 R0
-R5
-R37
-R38
+R16
+R74
+R75
 !i122 0
 L0 1055 111
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_base
-R2
+R22
+R23
 R3
+vxpm_memory_base
+R14
+R15
 !i10b 1
 !s100 19LGd>kafF65D`_zzbW<c1
-R4
+R6
 IS^?[?c1C<52Wj<::55dKZ1
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 57 7949
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_dpdistram
-R2
+R22
+R23
 R3
+vxpm_memory_dpdistram
+R14
+R15
 !i10b 1
 !s100 j74kegJn5Ja<`gSi[gUPi0
-R4
+R6
 IQe=mZ3RnGE]4l0>^GR>ki2
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8072 132
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_dprom
-R2
+R22
+R23
 R3
+vxpm_memory_dprom
+R14
+R15
 !i10b 1
 !s100 zjRD[hl?DNL1:F0X^PfFF1
-R4
+R6
 Ij33PKA=KaKf^Kd<kCHdIl0
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8210 152
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_sdpram
-R2
+R22
+R23
 R3
+vxpm_memory_sdpram
+R14
+R15
 !i10b 1
 !s100 :iRh<EnN>01aD65A<lDmB3
-R4
+R6
 IoJT@TjMY]12fG?=EK[WYe3
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8368 153
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_spram
-R2
+R22
+R23
 R3
+vxpm_memory_spram
+R14
+R15
 !i10b 1
 !s100 AK5MzcV1HoZEV1hE>Sie;3
-R4
+R6
 Iz7`5j6^hFdAAYb7>8zibM3
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8527 142
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_sprom
-R2
+R22
+R23
 R3
+vxpm_memory_sprom
+R14
+R15
 !i10b 1
 !s100 A<_hA2hicJ7Sez<`>kAb;1
-R4
+R6
 IDM=[i4g9ZgE2ZX9Ph_0?h0
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8675 132
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
-vxpm_memory_tdpram
-R2
+R22
+R23
 R3
+vxpm_memory_tdpram
+R14
+R15
 !i10b 1
 !s100 g_h>:[^WAWe6?2m@6518Z1
-R4
+R6
 IcYj@NoDA6:jPP=ekc_l_V3
 S1
 R0
-R5
-R6
-R7
+R16
+R17
+R18
 !i122 0
 L0 8813 171
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R19
+R20
+R21
 !i113 0
-R13
-R14
-R1
+R22
+R23
+R3

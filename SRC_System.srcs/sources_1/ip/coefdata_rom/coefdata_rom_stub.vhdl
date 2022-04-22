@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
 -- Date        : Tue Apr 19 16:40:49 2022
 -- Host        : DESKTOP-E68HFE0 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               D:/No_desktop/FPGA_part/Graduation_project/SRC_System/SRC_System.srcs/sources_1/ip/coefdata_rom/coefdata_rom_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top coefdata_rom -prefix
+--               coefdata_rom_ coefdata_rom_stub.vhdl
 -- Design      : coefdata_rom
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tfgg676-2
